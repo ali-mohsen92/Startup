@@ -1,0 +1,14 @@
+UPDATE products
+SET price=0.70
+WHERE id=2
+( this will update id 2 price )
+
+ALTER TABLE products
+ADD stock INT
+( this will add a new column in products )
+
+UPDATE products
+SET stock=0.70
+WHERE id=2
+( this will add stock to id 1 in products )
+

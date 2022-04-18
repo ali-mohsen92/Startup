@@ -1,0 +1,6 @@
+db.products.find() ( this will look for all data inside products)
+db.products.find({name: 'Pencil'}) ( this will look for data with name: Pencil)
+db.products.find({name: 'Pencil', name:1, _id:0})
+db.products.find({Price: {$gt: 1}}) ( this will look for prices greater than 1
+db.products.find({_id:1} , {name: 1, _id: 0}) (this will shows only the name because name:1 means visible while 0 is invisible)
+db.products.find({Price: {$gt: 1}}, {name:1,_id:1}) ( this will show id and name )

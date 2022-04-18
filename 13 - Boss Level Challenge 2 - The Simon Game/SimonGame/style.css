@@ -1,0 +1,36 @@
+﻿body {
+    margin:0;
+    text-align:center;
+    background-color:darkcyan;
+    font-family: serif;
+}
+h1 {
+    font-size: 6rem;
+}
+button{
+    color:black;
+    border: solid 5px;
+    margin:3%;
+    height: 250px;
+    width: 250px;
+}
+.container-fluid{
+    padding: 4% 0%;
+    width:50%;
+}
+.green{
+    background-color:green;
+}
+.red {
+    background-color: red;
+}
+.yellow {
+    background-color: yellow;
+}
+.blue {
+    background-color: blue;
+}
+.game-over{
+    background-color:red;
+    opacity: 0.5;
+}

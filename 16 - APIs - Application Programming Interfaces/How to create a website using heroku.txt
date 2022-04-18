@@ -1,0 +1,18 @@
+heroku login (cmd)
+
+1_ create Procfile ( inside the original folder )
+cmd:
+2_ web: node signup.js
+3_ git init
+4_ git config user.name "Ali"
+5_ git config user.email "ali-mohsen92@hotmail.com"
+6_ git add *
+7_ git commit -m "First Commit"
+8_ heroku create ( This will create the website https://stormy-fortress-83889.herokuapp.com/)
+9_ git push heroku master ( this will push the data to the main folder )
+
+incase of changing the data in the signup.js these steps are required to update the website
+
+1_ git add *
+2_ git commit -m "Change 01"
+3_ git push heroku master 

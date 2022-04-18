@@ -1,0 +1,31 @@
+#title {
+    background-color: #ff4c68;
+    color: white;
+}
+body {
+    font-family: "Monserrat";
+}
+.nav-item{
+    padding:0 10px;
+    font-size:25px;
+}
+.image1 {
+    width: 60%;
+    transform:rotate(25deg);
+}
+.h3{
+    font-weight:bolder;
+}
+.feature-box{
+    padding:3%;
+}
+.image2{
+    color:orange;
+    margin-bottom:10px;
+}
+.image2:hover{
+    color:black;
+}
+/*
+    transform:rotate(deg) rotates the image according to the degree
+*/

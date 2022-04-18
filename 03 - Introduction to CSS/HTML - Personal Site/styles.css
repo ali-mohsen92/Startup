@@ -1,0 +1,31 @@
+﻿body {
+    background-color: aquamarine;
+}
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: red;
+    border-width: 5px;
+    width: 10%;
+}
+h1{
+    color:red;
+}
+
+h3{
+    color:yellow;
+}
+
+/*
+    hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: red;
+    border-width: 5px;
+    width: 10%;
+}
+    border-style: none is used to make all borders non existent, border-top-style: dotted overwrites none to a circle but the rest are none,
+    border-color changes color, border-width changes size of width, witdth: 10% makes dots 10% of the full web page
+
+*/

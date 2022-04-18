@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<link rel="stylesheet" href="css/styles.css" />
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>To Do List Template</title>
+</head>
+<body>
+    <div class="box" id="heading">
+        <h1><%= whichtimeisit %></h1>
+    </div>
+
+    <div class="box">
+            <%  for (var i = 0; i<newListItems.length; i++){ %>
+    <div class="item">
+        <input type="checkbox" />
+        <p><%= newListItems[i] %></p>
+    </div>
+    <% } %>
+
+    <form class="item" action="/" method="post">
+        <input type="text" name="newItem" placeholder="New Item" autocomplete="off" />
+        <button type="submit">+</button>
+    </form>
+</div>
+
+
+</body>
+</html>
+
+<!--
+
+    <body>
+    <% if ( whichtimeisit === "Saturday" ||whichtimeisit === "Sunday") { %>
+    <h1 style="color:red">It's a <%= whichtimeisit %></h1>
+    <% } else { %>
+    <h1 style="color:blue">It's a <%= whichtimeisit %></h1>
+    <%  } %>
+</body>
+</html>
+    <%= %> is for output of data
+    <% %> is for adding conditions of a variable
+    -->

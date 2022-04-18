@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "2528a028-2fd5-4a3b-82a5-fbff5bb5592e": {
+      "ProjectGuid": "2528a028-2fd5-4a3b-82a5-fbff5bb5592e",
+      "DisplayName": "MongoDB Driver",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

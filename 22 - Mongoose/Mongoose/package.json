@@ -1,0 +1,12 @@
+{
+  "name": "mongoose",
+  "version": "0.0.0",
+  "description": "Mongoose",
+  "main": "server.js",
+  "author": {
+    "name": ""
+  },
+  "dependencies": {
+    "mongoose": "^6.1.6"
+  }
+}

@@ -1,0 +1,4 @@
+show dbs ( shows databases available )
+use showDB ( this will switch to database showDB )
+db.products.insertOne({_id:1,name: "Pen",Price: 0.80}) ( this will create table products and data )
+

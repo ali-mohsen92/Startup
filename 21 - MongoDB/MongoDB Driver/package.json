@@ -1,0 +1,13 @@
+{
+  "name": "mongo-db-driver",
+  "version": "0.0.0",
+  "description": "MongoDB Driver",
+  "main": "server.js",
+  "author": {
+    "name": ""
+  },
+  "dependencies": {
+    "mongodb": "^4.3.0",
+    "nodemon": "^2.0.15"
+  }
+}

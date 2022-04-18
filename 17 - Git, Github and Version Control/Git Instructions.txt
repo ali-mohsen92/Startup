@@ -1,0 +1,100 @@
+git locally:
+
+git init ( initialize git )
+
+git config user.name "Ali" ( required to configure username and email address before starting )
+ 
+git config user.email "ali-mohsen92@hotmail.com"
+
+git add chapter1.txt (this will add text to git)
+
+git status ( checks status of what is added or not added )
+
+git commit -m "Change 01" ( This is a backup incase we want to return to the old version )
+
+git log ( change commit hash and data )
+
+git add chapter2.txt
+
+git add chapter3.txt ( we can add all of them by using git add * )
+
+git log ( this will show chapter1.txt and chapter3.txt added with new log and hash )
+
+git diff chapter3.txt ( this will check the changes )
+
+git checkout chapter3.txt ( this will restore change to latest version )
+
+___________________________________________________________________________________________________________
+
+github online:
+
+create new repository
+
+https://github.com/friendevil11/Story.git
+
+git remote add origin https://github.com/friendevil11/Story.git ( directory created )
+
+git branch -M main
+
+git push -u origin main ( this will push the git commands and pieces to github )
+
+___________________________________________________________________________________________________________
+
+gitignore:
+
+touch .gitignore
+
+git init
+
+git add . ( this will add all )
+
+git rm --cached -r . ( this will remove all )
+
+open .gitignore and add secrets.txt inside
+
+git add . ( this will add everything except secrets.txt )
+
+Note: inside .gitignore add the swift.gitignore from https://github.com/github/gitignore/blob/main/Swift.gitignore
+to make sure your files are well hidden
+
+___________________________________________________________________________________________________________
+
+git clone  https://github.com/apple/swift.git (will clone files from github to your folder)
+
+
+___________________________________________________________________________________________________________
+
+git branch experimentalbranch ( will create experimental branch instead of main )
+
+git checkout experimentalbranch ( switches to experimental )
+
+Edit Chapters
+
+git add .
+
+git commit -m "Modify Experimental"
+
+git checkout master ( this will get back to master )
+
+create chapter4.txt
+
+git add .
+
+git commit -m "New Chapter 4"
+
+git log (check all branches and commits)
+
+git checkout experimentalbranch ( if we change to experimentalbranch, chapter4 will disappear because chapter4
+wasnt added there )
+
+git merge experimentalbranch ( this will merge the files and changes inside the text and will keep chapter4 
+:q! to exit log incase it appears)
+
+git branch -M main
+
+git push -u origin main ( to push it to the https we added recently )
+
+___________________________________________________________________________________________________________
+
+
+

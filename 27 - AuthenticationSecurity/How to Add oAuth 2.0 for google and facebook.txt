@@ -1,0 +1,5 @@
+Create oAuth client ID from google:
+1_ Create credentials from google
+2_ Add name, URIs * ( http://localhost:3000 )
+3_ Add Authorized redirect URIs ( http://localhost:3000/auth/google/secrets )
+4_ copy info to .env 

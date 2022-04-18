@@ -1,0 +1,23 @@
+CREATE TABLE orders(
+id INT NOT NULL,
+order_number INT,
+customer_id INT,
+product_id INT,
+PRIMARY KEY (id),
+FOREIGN KEY (customer_id) REFERENCES customers(id),
+FOREIGN KEY (product_id) REFERENCES products(id)
+)
+
+( FOREIGN KEY will link ids together to gather data using references provided )
+
+
+SELECT orders.order_number, customers.first_name, customers.last_name, customers.address
+FROM orders
+INNER JOIN customers ON orders.customer_id = customers.id
+( this will select orders and customers and join order.cutomer_id with custumers.id )
+
+
+SELECT orders.order_number, products.name, products.price, products.stock
+FROM orders
+INNER JOIN products ON orders.product_id = products.id
+( this will select orders and products and join order.products_id with product.id )

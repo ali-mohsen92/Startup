@@ -1,0 +1,1 @@
+db.products.updateOne({_id: 1}, {$set: {stock:32}}) ( this updates and sets a new category known as stocks )

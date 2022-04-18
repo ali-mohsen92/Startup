@@ -1,0 +1,5 @@
+SELECT * FROM products ( this will select everything and show full table)
+
+SELECT id, name FROM products ( this will only select id and name from products )
+
+SELECT id, name FROM products WHERE name='Data' ( this will only select with name Data )

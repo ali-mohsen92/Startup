@@ -1,0 +1,3 @@
+C:\Users\Lenovo\Desktop\Web Development\Startup\14 - Node Intro\Node Intro\obj\Debug\Node Intro.njsproj.AssemblyReference.cache
+C:\Users\Lenovo\Desktop\Web Development\Startup\14 - Node Intro\Node Intro\obj\Debug\Node Intro.njsproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\Web Development\Startup\14 - Node Intro\Node Intro\bin\Microsoft.NodejsTools.WebRole.dll

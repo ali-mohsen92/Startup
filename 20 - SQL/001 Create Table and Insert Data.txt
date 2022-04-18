@@ -1,0 +1,10 @@
+CREATE TABLE example (
+id int NOT NULL,
+Data nvarchar(MAX)
+)
+
+INSERT INTO example (id, Data)
+VALUES(1, 'insertdata001')
+
+
+Info: this is how table is created and data is inserted

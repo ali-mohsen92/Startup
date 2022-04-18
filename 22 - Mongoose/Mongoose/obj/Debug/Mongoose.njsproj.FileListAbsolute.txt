@@ -1,0 +1,3 @@
+C:\Users\Lenovo\Desktop\Web Development\Startup\22 - Mongoose\Mongoose\obj\Debug\Mongoose.njsproj.AssemblyReference.cache
+C:\Users\Lenovo\Desktop\Web Development\Startup\22 - Mongoose\Mongoose\obj\Debug\Mongoose.njsproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\Web Development\Startup\22 - Mongoose\Mongoose\bin\Microsoft.NodejsTools.WebRole.dll

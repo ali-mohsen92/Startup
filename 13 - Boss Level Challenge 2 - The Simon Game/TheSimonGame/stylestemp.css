@@ -1,0 +1,36 @@
+﻿body {
+    margin: 0;
+    background-color:darkblue;
+    text-align: center;
+}
+h1{
+    padding: 3% 0;
+    color:grey;
+    font-size:5rem;
+}
+.container-fluid{
+    width:50%;
+}
+.game-over {
+    background-color: red;
+    opacity: 0.8;
+}
+button {
+    border:solid 10px;
+    position: relative;
+    margin: 3% 0;
+    height: 300px;
+    width: 300px;
+}
+.button1{
+    background-color:green;
+}
+.button2 {
+    background-color: red;
+}
+.button3 {
+    background-color: yellow;
+}
+.button4 {
+    background-color: blue;
+}

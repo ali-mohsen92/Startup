@@ -1,0 +1,9 @@
+C:\Users\Lenovo\Desktop\Web Development\Startup\18 - EJS\EJS\obj\Debug\EJS.njsproj.AssemblyReference.cache
+C:\Users\Lenovo\Desktop\Web Development\Startup\18 - EJS\EJS\obj\Debug\EJS.njsproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\Web Development\Startup\18 - EJS\EJS\bin\Microsoft.NodejsTools.WebRole.dll
+C:\Users\Lenovo\Desktop\Web Development\Startup\23 - Putting Everything together\EJS\obj\Debug\EJS.njsproj.AssemblyReference.cache
+C:\Users\Lenovo\Desktop\Web Development\Startup\23 - Putting Everything together\EJS\obj\Debug\EJS.njsproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\Web Development\Startup\23 - Putting Everything together\EJS\bin\Microsoft.NodejsTools.WebRole.dll
+C:\Users\Lenovo\Desktop\Web Development\01 Startup\23 - Putting Everything together\EJS\obj\Debug\EJS.njsproj.AssemblyReference.cache
+C:\Users\Lenovo\Desktop\Web Development\01 Startup\23 - Putting Everything together\EJS\obj\Debug\EJS.njsproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\Web Development\01 Startup\23 - Putting Everything together\EJS\bin\Microsoft.NodejsTools.WebRole.dll

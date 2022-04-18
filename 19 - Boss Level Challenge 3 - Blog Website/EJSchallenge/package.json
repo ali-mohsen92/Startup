@@ -1,0 +1,17 @@
+{
+  "name": "ejschallenge",
+  "version": "0.0.0",
+  "description": "EJSchallenge",
+  "main": "server.js",
+  "author": {
+    "name": ""
+  },
+  "dependencies": {
+    "body": "^5.1.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.2",
+    "hbs": "^4.2.0",
+    "lodash": "^4.17.21",
+    "nodemon": "^2.0.15"
+  }
+}

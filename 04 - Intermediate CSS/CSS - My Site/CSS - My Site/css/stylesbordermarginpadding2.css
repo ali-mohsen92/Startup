@@ -1,0 +1,65 @@
+﻿body {
+    margin: 0;
+    background-color: white;
+}
+
+.div1 {
+    background-color: aquamarine;
+    margin: 10px;
+    padding: 10px;
+    border: solid 10px;
+    height: 200px;
+    width: 200px;
+}
+
+h1 {
+    margin-top: 0px;
+}
+
+.div2 {
+    height: 200px;
+    width: 200px;
+    background-color: red;
+}
+
+.div3 {
+    height: 200px;
+    width: 200px;
+    background-color: green;
+}
+
+
+/*
+    margin separates between box and body, padding separates between
+    div and text, border adds texture for the sides of the div,
+    height and width change the form of the div
+*/
+/*
+    div is used to add items together inside a box
+    margin by default is applied from chrome, to overwrite it you must
+    write margin of body and h1
+
+    body margin:0px, and h1 margin-top:0px.
+*/
+/*
+    padding is used to make text and div have space between each other
+
+*/
+/*
+    border-width is used to increase the line width in the div box
+    border-top and the rest can be changed separately
+    border-widthL 0px 10px 20px 30px, this function can used to change
+    all sides starting with top right down left
+*/
+
+/*
+    .div1 {
+    background-color: aquamarine;
+    padding: 20px;
+    margin: 20px;
+    this function will give space between texts and div, and space between
+    page and div
+}
+
+
+*/

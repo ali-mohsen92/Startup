@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "060e4fd0-49c8-4ab9-829f-9de9a1d1e108": {
+      "ProjectGuid": "060e4fd0-49c8-4ab9-829f-9de9a1d1e108",
+      "DisplayName": "RESTfulAPI",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

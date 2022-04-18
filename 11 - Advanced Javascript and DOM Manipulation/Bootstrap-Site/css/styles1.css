@@ -1,0 +1,33 @@
+.h1color1 .color1{
+    color:red;
+}
+/*
+    for this command to work on header the 
+    action should be reversed because color1 is the child of color2
+
+*/
+
+.color1 .h1color1 {
+    color: red;
+}
+
+/*
+   this command worked on color 1 but not color 2 because Color 2 is not the child of color1 class
+
+*/
+
+div.color2 {
+    color: green;
+}
+
+/*
+    wihthout space this will force div from color2 to become green
+
+*/
+
+h1.h1color2 {
+    color: yellow;
+}
+/*
+    this will make h1color2 child of h1 to become yellow
+*/

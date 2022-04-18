@@ -1,0 +1,19 @@
+<%- include("partials/header"); -%>
+
+<h1>Home</h1>
+<p><%= homeStartingContent %></p>
+    <%  Arrays.forEach(function(Array){ %>
+<h1><%= Array.title %></h1>
+<% var a = "/posts/" + Array.title; %>
+<p>
+    <%=  Array.content.substring(0, 100) + "..." %>
+    <a href="/posts/<%=Array._id%>">Read More</a>
+
+</p>
+    <% }); %>
+
+
+    <%- include("partials/footer"); -%>
+
+
+

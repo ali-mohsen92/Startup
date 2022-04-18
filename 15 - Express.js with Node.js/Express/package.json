@@ -1,0 +1,16 @@
+{
+  "name": "node-intro",
+  "version": "0.0.0",
+  "description": "Node Intro",
+  "main": "app.js",
+  "author": {
+    "name": ""
+  },
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "express": "^4.17.2",
+    "nodemon": "^2.0.15",
+    "superheroes": "^3.0.0",
+    "supervillains": "^3.0.0"
+  }
+}

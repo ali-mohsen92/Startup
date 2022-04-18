@@ -1,0 +1,36 @@
+1_ Create free cluster M0 from mongodb.com
+2_ allow access from all ip addresses
+3_ add username and password
+4_ open hyperterminal
+5_ Go to connect choose mongoshell and then type: mongosh "mongodb+srv://cluster0.6sxpa.mongodb.net/myFirstDatabase" --username admin
+6_ Enter Password
+7_ Go to connect Connect application
+8_ copy mongodb+srv://admin:<password>@cluster0.6sxpa.mongodb.net/todoList to mongoose.connect in EJS
+9_ change <password> to the password edited
+
+_____________________________________________________________________________________________
+1_ cd to directory
+2_ git init
+3_ git config user.name "Ali"
+4_ git config user.email "ali-mohsen92@hotmail.com"
+5_ git add .
+6_ git commit -m "First Commit"
+7_ heroku login
+8_ heroku create
+9_ touch Procfile
+10_ open Procfile and type: web: node signup.js
+11_ port = process.env.PORT; and add it to EJS.listen 
+12_ install node in npm
+13_ touch .gitignore
+14_ open .gitignore and type: 
+
+/node_modules
+npm-debug.log
+.DS_Store
+/*.env
+
+
+15_ git add .
+16_ git commit -m "Added a Procfile."
+17_ git push heroku master
+18_ website created https://sleepy-inlet-15866.herokuapp.com/

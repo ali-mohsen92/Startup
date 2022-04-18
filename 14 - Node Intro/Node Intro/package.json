@@ -1,0 +1,13 @@
+{
+  "name": "node-intro",
+  "version": "0.0.0",
+  "description": "Node Intro",
+  "main": "app.js",
+  "author": {
+    "name": ""
+  },
+  "dependencies": {
+    "superheroes": "^3.0.0",
+    "supervillains": "^3.0.0"
+  }
+}

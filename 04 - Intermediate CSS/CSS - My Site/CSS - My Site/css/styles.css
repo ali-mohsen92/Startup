@@ -1,0 +1,186 @@
+﻿body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Times New Roman';
+    font-size:15px;
+}
+    
+.div1 {
+    background-color: aquamarine;
+    margin: 0;
+}
+h1 {
+    line-height:2;
+    color:red;
+    padding-top: 20px;
+    width: 30%;
+    margin: 0px auto 0px auto;
+    font-size: 4rem;
+}
+h2 {
+    color: red;
+    margin-top: 1px;
+    position: relative;
+    font-size: 2.5rem;
+    font-weight:normal;
+}
+h3 {
+    color: red;
+}
+.cloud1{
+    position:absolute;
+    top:10px;
+    right:80px;
+}
+
+.cloud2{
+    position:absolute;
+    top:110px;
+    left:90px;
+}
+.mountain{
+    position:relative;
+}
+.skill-row {
+    text-align: left;
+    line-height: 2;
+    width: 30%;
+    margin: 100px auto 100px auto;
+}
+.left1 {
+
+}
+.image1{
+    float:left;
+    width:25%;
+    margin-right:30px;
+}
+.image2 {
+    float: right;
+    width: 25%;
+    margin-left:30px;
+
+}
+.bottom-container{
+    background-color:aquamarine;
+    position:relative;
+    padding:10px;
+}
+.btn {
+    position:relative;
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 8px 16px 8px 16px;
+    text-decoration: none;
+}
+
+    .btn:hover {
+        background: #3cb0fd;
+        background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+        background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+        background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+        background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+        text-decoration: none;
+    }
+
+.footer-link {
+    top:10px;
+    position: relative;
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 8px;
+    text-decoration: none;
+}
+    .footer-link:hover {
+        background: #3cb0fd;
+        background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+        background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+        background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+        background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+        text-decoration: none;
+    }
+
+hr{
+border-style:none;
+border-color:red;
+border-top-style:dotted;
+border-width:6px;
+width:10%;
+}
+.lastparagraph{
+    position:relative;
+    padding:30px;
+
+}
+.contact-me{
+    background-color:yellow;
+    padding:10px 0;
+}
+.a:hover{
+    color:white;
+}
+/*
+    clear:left clears float-left and clears left
+    clear:right clears float-right and clears right
+*/
+
+/*
+    line height is used to increase the height of the text between to blocks, font-weight is used
+    to change the look of text from light to bold or normal
+*/
+    /*
+    rem ignores other font sizes and focuses on the 1 size its given,
+    if a body adds a font-size and you add another to another class, it will be added
+    extra but with rem it only focuses on the class its given.
+    1rem=16px
+*/
+    /*
+    margin separates between box and body, padding separates between
+    div and text, border adds texture for the sides of the div,
+    height and width change the form of the div
+*/
+    /*
+    div is used to add items together inside a box
+    margin by default is applied from chrome, to overwrite it you must
+    write margin of body and h1
+
+    body margin:0px, and h1 margin-top:0px.
+*/
+    /*
+    padding is used to make text and div have space between each other
+
+*/
+    /*
+    border-width is used to increase the line width in the div box
+    border-top and the rest can be changed separately
+    border-widthL 0px 10px 20px 30px, this function can used to change
+    all sides starting with top right down left
+*/
+    /*
+    .div1 {
+    background-color: aquamarine;
+    padding: 20px;
+    margin: 20px;
+    this function will give space between texts and div, and space between
+    page and div
+}
+
+
+*/
+    /*
+    margin moves block and pushes other blocks to make room but position, doesn't 
+    move other block but pushes through
+
+*/

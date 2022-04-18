@@ -1,0 +1,42 @@
+﻿body {
+    background-color: aquamarine;
+}
+
+
+img{
+    background-color:red;
+    
+}
+/*
+    img{
+    background-color:red;
+    
+}
+    this command changes background of all images
+*/
+
+/*Adding class name will make every structure able to act as an individual*/
+
+.bacon {
+    background-color:white;
+}
+.broccoli{
+    background-color:red;
+}
+.broccoli2{
+    border-radius:100%;
+}
+
+/*  classes and ids are different by these aspects, classes can be used more than once but id can be used only once
+    multiple classes can be added to the same structure but id cannot
+*/
+#head1 {
+    background-color: red;
+    color: white;
+}
+
+/*sudo class is used when a structure is overwritten when crossed*/
+
+img:hover{
+    background-color:yellow;
+}

@@ -1,0 +1,17 @@
+db.products.insert({
+    _id:3,
+    name: "Rubber",
+    price: 0.5,
+    stock: 43,
+    reviews:[{authorName:"James", rating: 5, review: "Good Enough!"}]})
+( this will add array to the database with id 3)
+
+
+db.products.updateOne({_id: 2},{$set: {reviews:[{authorName:"James", rating: 5, review: "Good Enough!"}]}})
+( this will update id 2 with a new category called reviews with array )
+
+db.products.updateOne({_id: 1},{$set: {reviews:[{authorName:"James", rating: 5, review: "Good Enough!"},
+{authorName:"Ali", rating: 4, review: "Does the Job!"}
+]}})
+( this will update more than 1 array so more than 1 element in array )
+

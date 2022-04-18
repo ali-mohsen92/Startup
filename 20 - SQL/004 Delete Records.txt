@@ -1,0 +1,4 @@
+DELETE FROM products
+where id = 2
+
+( this will delete id 2)
